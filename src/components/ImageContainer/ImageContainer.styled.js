@@ -2,7 +2,7 @@ import styled from "styled-components";
 import smallYellowSmileImg from "../../img/smallYellSmile.svg";
 import pinkSmileImg from "../../img/pinkSmile.svg";
 import yellowSmileImg from "../../img/yellowSmile.svg";
-
+import mapImg from "../../img/map.png";
 import cloudsImg from "../../img/clouds.svg";
 
 export const ImgContainer = styled.div`
@@ -77,5 +77,25 @@ export const Clouds = styled.div`
 
   @media ${(p) => p.theme.media.desktop} {
     top: 101px;
+  }
+`;
+
+export const Map = styled.div`
+  background-image: none;
+  border-radius: 50%;
+  @media ${(p) => p.theme.media.tablet} {
+    position: fixed;
+    top: 0px;
+    right: -297px;
+    width: 720px;
+    height: 720px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(${mapImg});
+  }
+  @media ${(p) => p.theme.media.desktop} {
+    right: -316px;
+    width: 920px;
+    height: 920px;
   }
 `;

@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const Container = styled.div`
   position: relative;
   padding-top: 75px;
+  padding-left: 20px;
+  padding-right: 20px;
 
   @media ${(p) => p.theme.media.tablet} {
     padding-top: 110px;

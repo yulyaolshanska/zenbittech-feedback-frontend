@@ -16,6 +16,7 @@ export const Form = styled.form`
 export const Input = styled.input`
   z-index: 10;
   margin-bottom: 8px;
+  padding: 16px 24px;
   font-size: 18px;
   line-height: 1.8;
   color: #2d2d2d;
@@ -33,6 +34,10 @@ export const Input = styled.input`
 `;
 
 export const SubmitButton = styled.button`
+  @media ${(p) => p.theme.media.mobileM} {
+    margin-left: auto;
+    margin-right: auto;
+  }
   width: 218px;
   z-index: 10;
   /* height: 73px; */
@@ -45,11 +50,26 @@ export const SubmitButton = styled.button`
   padding: 27px 52px;
 `;
 
-export const ErrorText = styled.p``;
+export const ErrorText = styled.p`
+  margin: -8px 0px 6px 10px;
+
+  &:last-of-type {
+    margin-top: -23px;
+  }
+  font-size: 10px;
+  color: red;
+  font-weight: 500;
+  font-style: italic;
+
+  @media ${(p) => p.theme.media.tablet} {
+    font-size: 12px;
+  }
+`;
 
 export const Textarea = styled.textarea`
   z-index: 10;
   margin-bottom: 23px;
+  padding: 16px 24px;
   box-sizing: border-box;
   font-size: 18px;
   line-height: 1.8;
