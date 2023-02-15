@@ -5,6 +5,7 @@ export const Container = styled.div`
 `;
 
 export const Form = styled.form`
+  z-index: 10;
   display: flex;
   flex-direction: column;
   @media ${(p) => p.theme.media.tablet} {
@@ -13,6 +14,7 @@ export const Form = styled.form`
 `;
 
 export const Input = styled.input`
+  z-index: 10;
   margin-bottom: 8px;
   font-size: 18px;
   line-height: 1.8;
@@ -32,6 +34,7 @@ export const Input = styled.input`
 
 export const SubmitButton = styled.button`
   width: 218px;
+  z-index: 10;
   /* height: 73px; */
   color: #ffffff;
   font-size: 16px;
@@ -45,6 +48,7 @@ export const SubmitButton = styled.button`
 export const ErrorText = styled.p``;
 
 export const Textarea = styled.textarea`
+  z-index: 10;
   margin-bottom: 23px;
   box-sizing: border-box;
   font-size: 18px;
