@@ -1,14 +1,19 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+html{    box-sizing: border-box;}
 body {
   margin: 0;
-  background-color: ${(p) => p.theme.colors.background}; 
-  /* font-family: Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  padding: 0;
+  box-sizing: border-box;
+    font-size: 18px;
+  line-height: 1.8;
+  /* background-color: ${(p) => p.theme.colors.background};  */
+  font-family: Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
+  -moz-osx-font-smoothing: grayscale;
 }
 
 
@@ -20,7 +25,7 @@ ol {
   margin: 0;
 }
 
-body,
+
 h1,
 h2,
 h3,
