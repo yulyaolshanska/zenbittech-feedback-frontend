@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/zenbittech-feedback-frontend/static/css/main.7acaea2f.css",
-    "main.js": "/zenbittech-feedback-frontend/static/js/main.a7728f0a.js",
-    "static/js/89.5efc1aa1.chunk.js": "/zenbittech-feedback-frontend/static/js/89.5efc1aa1.chunk.js",
+    "main.js": "/zenbittech-feedback-frontend/static/js/main.8cdbe73c.js",
+    "static/js/89.6df508df.chunk.js": "/zenbittech-feedback-frontend/static/js/89.6df508df.chunk.js",
     "static/js/776.36149b37.chunk.js": "/zenbittech-feedback-frontend/static/js/776.36149b37.chunk.js",
     "static/media/clouds.svg": "/zenbittech-feedback-frontend/static/media/clouds.40f1b89cfaba856e29bf007fb0653db5.svg",
     "index.html": "/zenbittech-feedback-frontend/index.html",
@@ -10,12 +10,12 @@
     "static/media/pinkSmile.svg": "/zenbittech-feedback-frontend/static/media/pinkSmile.9978a300d8b23cb9cbea6f582cafb29d.svg",
     "static/media/smallYellSmile.svg": "/zenbittech-feedback-frontend/static/media/smallYellSmile.7e5cc549e6a8aed0ce5382f6da3f379a.svg",
     "main.7acaea2f.css.map": "/zenbittech-feedback-frontend/static/css/main.7acaea2f.css.map",
-    "main.a7728f0a.js.map": "/zenbittech-feedback-frontend/static/js/main.a7728f0a.js.map",
-    "89.5efc1aa1.chunk.js.map": "/zenbittech-feedback-frontend/static/js/89.5efc1aa1.chunk.js.map",
+    "main.8cdbe73c.js.map": "/zenbittech-feedback-frontend/static/js/main.8cdbe73c.js.map",
+    "89.6df508df.chunk.js.map": "/zenbittech-feedback-frontend/static/js/89.6df508df.chunk.js.map",
     "776.36149b37.chunk.js.map": "/zenbittech-feedback-frontend/static/js/776.36149b37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.a7728f0a.js"
+    "static/js/main.8cdbe73c.js"
   ]
 }
