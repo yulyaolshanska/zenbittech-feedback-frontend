@@ -4,6 +4,7 @@ import {
   PinkSmile,
   YellowSmile,
   Map,
+  Sun,
 } from "./ImageContainer.styled";
 
 const ImageContainer = () => {
@@ -13,6 +14,7 @@ const ImageContainer = () => {
       <PinkSmile />
       <BigYellowSmile />
       <Clouds />
+      <Sun />
       <Map />
     </>
   );
