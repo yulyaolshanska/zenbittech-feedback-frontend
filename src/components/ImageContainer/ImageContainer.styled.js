@@ -131,11 +131,11 @@ export const Map = styled.div`
    } */
 
 export const Sun = styled.div`
-  @media ${(p) => p.theme.media.desktop} {
+  @media ${(p) => p.theme.media.tablet} {
     position: absolute;
     z-index: 4;
-    top: 0;
-    right: 0;
+    top: 20px;
+    right: 400px;
     background-image: url(${sunImg});
     background-size: contain;
     background-repeat: no-repeat;

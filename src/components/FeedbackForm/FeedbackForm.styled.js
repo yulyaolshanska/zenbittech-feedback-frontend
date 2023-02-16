@@ -23,6 +23,9 @@ export const Input = styled.input`
   background: #ffffff;
   border: 1px solid #dcdcdc;
   border-radius: 10px;
+  &:hover {
+    cursor: pointer;
+  }
   @media ${(p) => p.theme.media.tablet} {
     padding: 20px 36px;
     /* height: 44px; */
@@ -48,14 +51,17 @@ export const SubmitButton = styled.button`
   border-radius: 500px;
   border: none;
   padding: 27px 52px;
+  &:hover {
+    cursor: pointer;
+  }
 `;
 
 export const ErrorText = styled.p`
   margin: -8px 0px 6px 10px;
 
-  &:last-of-type {
+  /* &:last-of-type {
     margin-top: -23px;
-  }
+  } */
   font-size: 10px;
   color: red;
   font-weight: 500;
@@ -78,6 +84,9 @@ export const Textarea = styled.textarea`
   border: 1px solid #dcdcdc;
   border-radius: 10px;
   resize: none;
+  &:hover {
+    cursor: pointer;
+  }
   @media ${(p) => p.theme.media.tablet} {
     padding: 20px 36px;
     width: 557px;

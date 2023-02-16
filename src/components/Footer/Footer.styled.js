@@ -51,7 +51,7 @@ export const PinkSmile = styled.div`
 export const GreenSmile = styled.div`
   position: absolute;
   top: 0;
-  right: 127px;
+  right: 107px;
   width: 40px;
   height: 40px;
   background-size: contain;
@@ -67,6 +67,10 @@ export const GreenSmile = styled.div`
 
 export const YellowSmile = styled.div`
   position: absolute;
+  top: 10px;
+  right: -25px;
+  width: 78px;
+  height: 78px;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(${smallYellowSmileImg});

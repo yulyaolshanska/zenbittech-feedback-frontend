@@ -8,6 +8,7 @@ import styled from "styled-components";
 
 export const SocialList = styled.ul`
   display: flex;
+  z-index: 15;
   @media ${(p) => p.theme.media.tablet} {
     margin-left: 130px;
   }
@@ -16,13 +17,40 @@ export const SocialList = styled.ul`
   }
 `;
 export const SocialItem = styled.li`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   &:not(:last-child) {
     margin-right: 20px;
   }
 `;
-export const SocialLink = styled.a``;
+export const SocialLink = styled.a`
+  display: flex;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  &:hover {
+    cursor: pointer;
+  }
+`;
 
-export const LinkedinIn = styled(FaLinkedinIn)``;
-export const Twitter = styled(FaTwitter)``;
-export const Facebook = styled(FaFacebookF)``;
-export const Pinterest = styled(FaPinterestP)``;
+export const LinkedinIn = styled(FaLinkedinIn)`
+  color: #696969;
+  width: 15px;
+  height: 16px;
+`;
+export const Twitter = styled(FaTwitter)`
+  color: #696969;
+  width: 19px;
+  height: 16px;
+`;
+export const Facebook = styled(FaFacebookF)`
+  color: #696969;
+  width: 10px;
+  height: 18px;
+`;
+export const Pinterest = styled(FaPinterestP)`
+  color: #696969;
+  width: 13px;
+  height: 15px;
+`;

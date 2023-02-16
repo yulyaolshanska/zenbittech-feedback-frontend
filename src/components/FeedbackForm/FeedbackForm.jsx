@@ -13,7 +13,9 @@ const FeedbackForm = () => {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm();
+  } = useForm({
+    mode: "onBlur",
+  });
 
   const textRegexp = /[А-ЯЄIа-яєia-zA-Z]+/g;
   const emailRegex =
