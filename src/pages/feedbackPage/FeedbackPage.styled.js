@@ -2,19 +2,23 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   position: relative;
-  padding-top: 75px;
-  padding-left: 20px;
-  padding-right: 20px;
+  overflow: hidden;
+  padding: 75px 20px 90px 20px;
 
   @media ${(p) => p.theme.media.tablet} {
+    /* width: 768px; */
     padding-top: 110px;
     padding-left: 50px;
+    padding-bottom: 100px;
   }
 
   @media ${(p) => p.theme.media.desktop} {
+    /* width: 1280px; */
+
     padding-top: 179px;
     padding-left: 150px;
-    padding-right: 150px;
+    /* padding-right: 150px; */
+    padding-bottom: 174px;
   }
 `;
 
