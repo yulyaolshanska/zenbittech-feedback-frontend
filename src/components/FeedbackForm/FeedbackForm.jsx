@@ -7,6 +7,7 @@ import {
   Textarea,
 } from "./FeedbackForm.styled.js";
 import { useForm } from "react-hook-form";
+import { useAddFeedbackMutation } from "redux/feedbackApi.js";
 
 const FeedbackForm = () => {
   const {
@@ -16,12 +17,19 @@ const FeedbackForm = () => {
   } = useForm({
     mode: "onBlur",
   });
+  const [addFeedback] = useAddFeedbackMutation();
 
   const textRegexp = /[А-ЯЄIа-яєia-zA-Z]+/g;
   const emailRegex =
     /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
 
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = async (data) => {
+    try {
+      await addFeedback(data);
+    } catch (error) {
+      console.log(error.message);
+    }
+  };
 
   return (
     <Container>
