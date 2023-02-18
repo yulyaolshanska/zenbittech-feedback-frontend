@@ -1,6 +1,6 @@
 # Zenbittech test case
 
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2FzenBitTech%2F&psig=AOvVaw08xJQRNkgvxWa8c07NbWnW&ust=1676817222662000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMCNgImln_0CFQAAAAAdAAAAABAE" width="50px">
+<img src="https://s.dou.ua/CACHE/images/img/events/a3ea1a637167972009e45fe011f04071_FXQSdzP/f9f9ce0d739bc110cbc75bc85156180b.png" width="250px">
 
 ## https://feedback-test-case.netlify.app/
 
@@ -12,9 +12,9 @@ Used technologies:
 - RTK Query
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40"         height="40"/>&nbsp;
-  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" title="Redux" alt="Redux " width="40" height="40"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" title="React" alt="React" width="50"         height="50"/>&nbsp;
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="50"      height="50"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" title="Redux" alt="Redux " width="50" height="50"/>&nbsp;
 </div>
 
 ## Available Scripts
