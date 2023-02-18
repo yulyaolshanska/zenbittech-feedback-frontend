@@ -10,10 +10,6 @@ const FeedbackPage = () => {
         <Title>Reach out to us!</Title>
         <FeedbackForm />
         <ImageContainer />
-        {/* <YellowSmile />
-        <PinkSmile />
-        <BigYellowSmile />
-        <Clouds /> */}
       </Container>
       <Footer />
     </>

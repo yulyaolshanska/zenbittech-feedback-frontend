@@ -8,7 +8,6 @@ body {
   box-sizing: border-box;
     font-size: 18px;
   line-height: 1.8;
-  /* background-color: ${(p) => p.theme.colors.background};  */
   font-family: Manrope, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

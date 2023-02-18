@@ -9,9 +9,7 @@ export const FooterContainer = styled.footer`
   }
   position: relative;
   display: flex;
-
   overflow: hidden;
-  /* bottom: 0; */
   z-index: 20;
   padding: 40px 20px;
   height: 100px;

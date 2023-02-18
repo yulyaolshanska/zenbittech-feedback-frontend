@@ -13,11 +13,8 @@ export const Container = styled.div`
   }
 
   @media ${(p) => p.theme.media.desktop} {
-    /* width: 1280px; */
-
     padding-top: 179px;
     padding-left: 150px;
-    /* padding-right: 150px; */
     padding-bottom: 174px;
   }
 `;

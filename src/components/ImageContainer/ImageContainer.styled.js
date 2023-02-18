@@ -106,30 +106,6 @@ export const Map = styled.div`
   }
 `;
 
-/* background-image: none;
-  border-radius: 50%;
-  @media ${(p) => p.theme.media.tablet} {
-    position: absolute;
-    top: 0px;
-    right: -210px;
-    width: 670px;
-    height: 670px;
-    background-size: contain; 
-     right: -297px; 
-     right: -140px;
-    width: 370px;
-    height: 370px;
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-image: url(${mapImg});
-  }
-  @media ${(p) => p.theme.media.desktop} {
-    right: -316px;
-     width: 626px; 
-    width: 920px;
-    height: 920px;
-   } */
-
 export const Sun = styled.div`
   @media ${(p) => p.theme.media.tablet} {
     position: absolute;
