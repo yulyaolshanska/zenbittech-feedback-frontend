@@ -8,16 +8,19 @@ import {
 } from "./FeedbackForm.styled.js";
 import { useForm } from "react-hook-form";
 import { useAddFeedbackMutation } from "redux/feedbackApi.js";
+import { errorNotification, successNotification } from "utils/notifications.js";
+import { ToastContainer } from "react-toastify";
 
 const FeedbackForm = () => {
   const {
+    reset,
     register,
     handleSubmit,
     formState: { errors },
   } = useForm({
     mode: "onBlur",
   });
-  const [addFeedback] = useAddFeedbackMutation();
+  const [addFeedback, { isLoading }] = useAddFeedbackMutation();
 
   const textRegexp = /[А-ЯЄIа-яєia-zA-Z]+/g;
   const emailRegex =
@@ -26,8 +29,10 @@ const FeedbackForm = () => {
   const onSubmit = async (data) => {
     try {
       await addFeedback(data);
+      successNotification();
+      reset();
     } catch (error) {
-      console.log(error.message);
+      errorNotification();
     }
   };
 
@@ -90,8 +95,11 @@ const FeedbackForm = () => {
         {errors.message && (
           <ErrorText role="alert">{errors.message?.message}</ErrorText>
         )}
-        <SubmitButton>Send message</SubmitButton>
+        <SubmitButton type="submit" disabled={isLoading}>
+          {isLoading ? "Sending..." : "Send message"}
+        </SubmitButton>
       </Form>
+      <ToastContainer />
     </Container>
   );
 };

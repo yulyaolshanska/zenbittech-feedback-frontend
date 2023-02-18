@@ -12,22 +12,25 @@ export const Social = () => {
   return (
     <SocialList>
       <SocialItem>
-        <SocialLink>
+        <SocialLink
+          href="https://www.linkedin.com/in/julia-olshanska-1529b2230/"
+          target="_blank"
+        >
           <LinkedinIn />
         </SocialLink>
       </SocialItem>
       <SocialItem>
-        <SocialLink>
+        <SocialLink href="https://twitter.com/" target="_blank">
           <Twitter />
         </SocialLink>
       </SocialItem>
       <SocialItem>
-        <SocialLink>
+        <SocialLink href="https://www.facebook.com/" target="_blank">
           <Facebook />
         </SocialLink>
       </SocialItem>
       <SocialItem>
-        <SocialLink>
+        <SocialLink href="https://ru.pinterest.com/" target="_blank">
           <Pinterest />
         </SocialLink>
       </SocialItem>
