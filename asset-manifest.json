@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zenbittech-feedback-frontend/static/css/main.e6c13ad2.css",
-    "main.js": "/zenbittech-feedback-frontend/static/js/main.f54daa15.js",
+    "main.js": "/zenbittech-feedback-frontend/static/js/main.9fc8c791.js",
     "static/js/824.df24b398.chunk.js": "/zenbittech-feedback-frontend/static/js/824.df24b398.chunk.js",
     "static/js/466.7c9ca302.chunk.js": "/zenbittech-feedback-frontend/static/js/466.7c9ca302.chunk.js",
     "static/media/map.png": "/zenbittech-feedback-frontend/static/media/map.da1fd48eb684a945a77b.png",
@@ -13,12 +13,12 @@
     "static/media/greenSmile.svg": "/zenbittech-feedback-frontend/static/media/greenSmile.399df32776421d98ed8c24f3f6672b15.svg",
     "static/media/sun.svg": "/zenbittech-feedback-frontend/static/media/sun.386530f142eafd073496b272b2d6632d.svg",
     "main.e6c13ad2.css.map": "/zenbittech-feedback-frontend/static/css/main.e6c13ad2.css.map",
-    "main.f54daa15.js.map": "/zenbittech-feedback-frontend/static/js/main.f54daa15.js.map",
+    "main.9fc8c791.js.map": "/zenbittech-feedback-frontend/static/js/main.9fc8c791.js.map",
     "824.df24b398.chunk.js.map": "/zenbittech-feedback-frontend/static/js/824.df24b398.chunk.js.map",
     "466.7c9ca302.chunk.js.map": "/zenbittech-feedback-frontend/static/js/466.7c9ca302.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.f54daa15.js"
+    "static/js/main.9fc8c791.js"
   ]
 }
